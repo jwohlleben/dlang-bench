@@ -58,3 +58,5 @@ run:
 ```
 The package `stress-ng` is required for using the CPU warmup feature.
 
+## What else should I know?
+Currently, QuickSort variant 3 (C++) does not work and I do not intend to fix it due to time constraints. But feel free to develop the code further and use it for your own evaluations. CPU pinning with likwid-pin didn't work so well for me either. Maybe you'll have better luck with that. Have fun benchmarking!
